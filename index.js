@@ -27,9 +27,24 @@ const destinationCollection=client.db('application').collection('destination')
 async function run (){
 try{
 app.get('/search', async(req, res)=>{
-    const result=await destinationCollection.find().toArray();
-    res.send(result)
-})
+    const searchTerm = req.query.searchTerm;
+    const query = {
+        // title:{ $regex: new RegExp(searchTerm, "i") },
+        // type:{ $regex: new RegExp(searchTerm, "i")}
+        title: {
+            $regex: searchTerm,
+            $options: 'i' 
+          },
+          type:{
+            $regex: searchTerm,
+            $options: 'i'
+          }
+      };
+      console.log(query)
+      const result = await destinationCollection.find(query).toArray();
+      res.send(result);
+
+});
 
 app.get('/', async(req, res)=>{
     res.send('application is running')
