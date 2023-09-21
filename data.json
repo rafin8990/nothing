@@ -1,0 +1,254 @@
+[
+    {
+        "title": "Bangladesh",
+        "country": "Bangladesh",
+        "type": "country",
+        "capital": "Dhaka",
+        "region": "South Asia",
+        "pictures": [
+            "bangladesh_image1.jpg",
+            "bangladesh_image2.jpg",
+            "bangladesh_image3.jpg"
+        ],
+        "description": "Bangladesh, officially the People's Republic of Bangladesh, is a South Asian nation renowned for its cultural richness and varied landscapes. Nestled in the heart of the Ganges-Brahmaputra Delta, this country boasts lush green countryside, punctuated by rice paddies and meandering rivers. Dhaka, the capital, is a bustling metropolis with a blend of modernity and tradition. Bangladesh is deeply rooted in Bengali culture, celebrated through music, dance, and vibrant festivals like Pohela Boishakh. Nature enthusiasts can explore the Sundarbans, home to Bengal tigers, and the Chittagong Hill Tracts for scenic hill stations. Bangladesh is a captivating blend of history, culture, and natural beauty."
+    },
+    {
+        "title": "Riverside Boutique Hotel",
+        "address": "42 Riverfront Road, Dhaka",
+        "how_to_get_here": [
+            "1. Exit Hazrat Shahjalal International Airport and head to the taxi stand.",
+            "2. Hire a taxi or use our shuttle service at the designated area.",
+            "3. Provide the driver with our address: '42 Riverfront Road, Dhaka.'",
+            "4. Our representative will guide you to the shuttle.",
+            "5. Enjoy the scenic ride to our centrally located hotel.",
+            "6. Our friendly staff will assist with check-in. Welcome to Riverside Boutique Hotel!"
+        ],
+        "country": "Bangladesh",
+        "type": "hotel",
+        "hotline_number": "+880123456789",
+        "website": "www.riversidehotelbd.com",
+        "email": "info@riversidehotelbd.com",
+        "pictures": [
+            "hotel_image1.jpg",
+            "hotel_image2.jpg",
+            "hotel_image3.jpg"
+        ],
+        "description": "Discover the Riverside Boutique Hotel, a sanctuary of comfort and elegance in the bustling city of Dhaka, Bangladesh. Nestled along the serene riverside, our hotel offers a retreat from the city's hustle and bustle. We provide impeccable accommodations and warm hospitality, making your stay memorable whether you're here for business or leisure.",
+        "language": "English, Bengali",
+        "room_type": [
+            "Riverside view rooms",
+            {
+                "room_type": "Single Bed",
+                "sit_capacity": 10
+            },
+            {
+                "room_type": "Double Bed",
+                "sit_capacity": 7
+            },
+            {
+                "room_type": "Two Single Beds",
+                "sit_capacity": 5
+            }
+        ],
+        "room_features": [
+            "On-site dining",
+            "Meeting facilities",
+            "Fitness center",
+            "Outdoor pool"
+        ],
+        "unavailable_dates": [
+            "2023-12-20",
+            "2023-12-21",
+            "2023-12-22",
+            "2024-04-15",
+            "2024-04-16"
+        ],
+        "review": {
+            "rating": 4,
+            "review": "I had a wonderful stay at the Riverside Boutique Hotel. The staff was friendly, the room was clean and spacious, and the river view was breathtaking. I highly recommend this hotel to anyone visiting Dhaka.",
+            "userName": "John Smith",
+            "userPhoto": "john_smith_photo.jpg",
+            "userAddress": "789 Riverside Avenue, Dhaka"
+        }
+    },
+    {
+        "title": "Riverside Culinary Haven",
+        "address": "42 Riverfront Road, Dhaka",
+        "how_to_get_here": [
+            "1. Exit Hazrat Shahjalal International Airport and head to the taxi stand.",
+            "2. Hire a taxi or use our shuttle service at the designated area.",
+            "3. Provide the driver with our address: '42 Riverfront Road, Dhaka.'",
+            "4. Our representative will guide you to the restaurant.",
+            "5. Enjoy a delightful dining experience at Riverside Culinary Haven!"
+        ],
+        "country": "Bangladesh",
+        "type": "restaurant",
+        "hotline_number": "+880123456789",
+        "website": "www.riversidebistro.com",
+        "email": "info@riversidebistro.com",
+        "pictures": [
+            "restaurant_image1.jpg",
+            "restaurant_image2.jpg",
+            "restaurant_image3.jpg"
+        ],
+        "description": "Indulge in a culinary journey at Riverside Culinary Haven, located along the serene riverside in Dhaka, Bangladesh. Our restaurant offers a delightful array of dishes, from local favorites to international cuisines, served in a picturesque setting. Whether it's a romantic dinner or a casual meal with friends, Riverside Culinary Haven is the perfect choice.",
+        "language": "English, Bengali",
+        "opening_hours": {
+            "Monday-Friday": "11:00 AM - 10:00 PM",
+            "Saturday-Sunday": "12:00 PM - 11:00 PM"
+        },
+        "food_list": [
+            {
+                "food_name": "Spicy Bangladeshi Curry",
+                "food_image": "spicy_curry_image.jpg"
+            },
+            {
+                "food_name": "Mango Glazed Chicken",
+                "food_image": "mango_chicken_image.jpg"
+            },
+            {
+                "food_name": "Seafood Platter",
+                "food_image": "seafood_platter_image.jpg"
+            },
+            {
+                "food_name": "Vegetarian Delight",
+                "food_image": "vegetarian_delight_image.jpg"
+            }
+        ],
+        "review": {
+            "rating": 4.5,
+            "review": "I had a fantastic dining experience at Riverside Culinary Haven. The food was delicious, the service was excellent, and the river view made it even more special. I highly recommend this restaurant to food enthusiasts.",
+            "userName": "Emily Johnson",
+            "userPhoto": "emily_johnson_photo.jpg",
+            "userAddress": "123 Riverside Lane, Dhaka"
+        },
+        "unavailable_dates": [
+            "2023-12-25",
+            "2024-01-01",
+            "2024-02-14"
+        ]
+    },
+    {
+        "title": "Bandarban hiking",
+        "country": "Bangladesh",
+        "type": "area",
+        "category": "Mountain",
+        "booking_limit": 4,
+        "people_limit": 20,
+        "food": [
+            "Bamboo shoot curry",
+            "birani",
+            "murgi",
+            "alu bhorta"
+        ],
+        "price": [
+            {
+                "type": "adult",
+                "amount": 1000
+            },
+            {
+                "type": "child",
+                "amount": 500
+            }
+        ],
+        "includes": [
+            "Scenic Tours",
+            "Local Guide"
+        ],
+        "conditions": [
+            "Hiking gear not included",
+            "Weather-dependent activities"
+        ],
+        "itinerary": [
+            "Keokradong trekking",
+            "second one",
+            "third one"
+        ],
+        "pictures": [
+            "bandarban_image1.jpg",
+            "bandarban_image2.jpg",
+            "bandarban_image3.jpg"
+        ],
+        "description": "Bandarban is a picturesque region located in the Chittagong Hill Tracts of Bangladesh. It is renowned for its lush green hills, serene landscapes, and diverse indigenous cultures. Visitors can enjoy trekking, explore tribal villages, and immerse themselves in the natural beauty of this mountainous paradise.",
+        "unavailable_dates": [
+            "2023-12-25",
+            "2024-01-01",
+            "2024-02-14"
+        ],
+        "review": {
+            "rating": 4.5,
+            "review": "My trip to Bandarban was incredible! The mountains are breathtaking, and the local culture is fascinating. The guided tours were informative, and the experience was memorable. Highly recommended!",
+            "userName": "John Doe",
+            "userPhoto": "john_doe_photo.jpg",
+            "userAddress": "456 Hillside Road, Dhaka"
+        }
+    },
+    {
+        "title": "Sunset Beach Resort",
+        "address": "123 Beachfront Drive, Dhaka",
+        "how_to_get_here": [
+            "1. Exit Hazrat Shahjalal International Airport and head to the taxi stand.",
+            "2. Hire a taxi or use our shuttle service at the designated area.",
+            "3. Provide the driver with our address: '123 Beachfront Drive, Dhaka.'",
+            "4. Our representative will guide you to the shuttle.",
+            "5. Enjoy the scenic ride to our centrally located resort.",
+            "6. Our friendly staff will assist with check-in. Welcome to Sunset Beach Resort!"
+        ],
+        "country": "Bangladesh",
+        "type": "resort",
+        "hotline_number": "+880123456789",
+        "website": "www.sunsetbeachresortbd.com",
+        "email": "info@sunsetbeachresortbd.com",
+        "pictures": [
+            "resort_image1.jpg",
+            "resort_image2.jpg",
+            "resort_image3.jpg"
+        ],
+        "description": "Welcome to Sunset Beach Resort, a tranquil oasis nestled on the pristine beaches of Dhaka, Bangladesh. Our resort offers a perfect blend of luxury and nature, providing you with an unforgettable getaway experience. Whether you're seeking relaxation or adventure, we have it all.",
+        "language": "English, Bengali",
+        "room_type": [
+            {
+                "room_type": "Deluxe Suite",
+                "sit_capacity": 2
+            },
+            {
+                "room_type": "Family Villa",
+                "sit_capacity": 4
+            },
+            {
+                "room_type": "Luxury Bungalow",
+                "sit_capacity": 2
+            }
+        ],
+        "room_features": [
+            "Private beachfront balconies",
+            "Spa and wellness center",
+            "Water sports facilities",
+            "Outdoor pool"
+        ],
+        "unavailable_dates": [
+            "2023-12-20",
+            "2023-12-21",
+            "2023-12-22",
+            "2024-04-15",
+            "2024-04-16"
+        ],
+        "review": {
+            "rating": 4.5,
+            "review": "My stay at Sunset Beach Resort was a dream come true. The serene beachfront view from my cottage was magical. The resort's amenities and service exceeded my expectations. Highly recommended for a relaxing escape.",
+            "userName": "Emily Johnson",
+            "userPhoto": "emily_johnson_photo.jpg",
+            "userAddress": "123 Sunset Retreat, Dhaka"
+        },
+        "additional_info": {
+            "check-in_time": "3:00 PM",
+            "check-out_time": "11:00 AM",
+            "payment_options": [
+                "Credit card",
+                "Cash"
+            ],
+            "pets_allowed": false,
+            "smoking_policy": "Non-smoking property"
+        }
+    }
+]
