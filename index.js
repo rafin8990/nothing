@@ -34,10 +34,6 @@ app.get('/search', async(req, res)=>{
         title: {
             $regex: searchTerm,
             $options: 'i' 
-          },
-          type:{
-            $regex: searchTerm,
-            $options: 'i'
           }
       };
       console.log(query)
